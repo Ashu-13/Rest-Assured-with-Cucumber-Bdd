@@ -1,0 +1,23 @@
+package suiteRunnerPack;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features = "src/test/resources/FeatureFolder/",
+		glue = "stepDefFiles"
+		
+		)
+
+
+
+
+public class TestRunnerClass {
+
+
+
+
+}
